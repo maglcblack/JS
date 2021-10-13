@@ -369,7 +369,7 @@ var MAC={
             });
         },
         'Report':function(name,id){
-            MAC.Pop.Show(400,300,'数据报错',maccms.path+'/index.php/gbook/report.html?id='+id+'&name='+ encodeURIComponent(name),function(r){
+            MAC.Pop.Show(342,300,'数据报错',maccms.path+'/index.php/gbook/report.html?id='+id+'&name='+ encodeURIComponent(name),function(r){
 
             });
         }
